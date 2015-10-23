@@ -82,9 +82,6 @@
       $(".intro").hide();
       $(".main").hide();
       $(".response").hide();
-    }
-
-    if (counter === 0) {
       $(".total").show();
       $(".total-count").text(" ".concat(outcome));
       $(".button.next").text("Start Over");
