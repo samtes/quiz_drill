@@ -62,10 +62,10 @@
 
   function loadNextPage () {
     if (counter === 0) {
-      window.location.reload();
+      return window.location.reload();
     }
 
-    if (counter < 6 && counter > 0) {
+    if (counter < 6) {
       $(".display").show();
       $(".option").removeClass("active");
       $(".count.".concat(String(counter))).addClass("active");
