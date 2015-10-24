@@ -5,7 +5,7 @@ body {
 }
 
 .board {
-  padding: 0 30px 50px;
+  padding: 0 30px;
   margin: 0 auto 20px;
   width: 80%;
 }
@@ -65,7 +65,7 @@ body {
   color: green;
   font-weight: bold;
   font-size: 20px;
-  width: 200px;
+  width: 300px;
   height: 50px;
 }
 
@@ -76,15 +76,28 @@ body {
 }
 
 .intro {
-  width: 100%;
-  display: flex;
+  padding: 20px;
+  margin: 20px;
   justify-content: center;
+}
+
+.total {
+  margin: 60px auto;
+}
+
+.image img {
+  width: 100px;
+  height: 100px;
 }
 
 .intro, .res, p {
   font-size: 20px;
 }
 
-ul {
-  text-align: left;
+.opt {
+  margin-top: 6px;
+}
+
+li {
+  list-style: none;
 }

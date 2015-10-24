@@ -66,6 +66,7 @@
     }
 
     if (counter < 6) {
+      $(".welcome").hide();
       $(".display").show();
       $(".option").removeClass("active");
       $(".count.".concat(String(counter))).addClass("active");
@@ -98,7 +99,7 @@
     $("p.quest").text(question);
     $(".opt1").text(opt1);
     $(".opt2").text(opt2);
-    $(".opt3").text(opt2);
+    $(".opt3").text(opt3);
     $(".opt4").text(opt4);
   }
 
@@ -115,7 +116,7 @@
 
       if (selected === data[counter].answer) {
         $(".pass-fail").text("CORRECT");
-        $(".image").attr("src", "/".concat(data[counter].image));
+        $(".image img").attr("src", data[counter].image);
         $(".res").text(data[counter].desc);
         $(".outcome".concat(String(counter))).addClass("pass");
         outcome++;
@@ -129,6 +130,10 @@
       $(".next").show();
       $(".button.next").text("Next quiz");
       counter++
+
+      if (counter === 6) {
+        $(".button.next").text("Check Result");
+      }
     } else {
       return alert("Please selected one option.");
     }
