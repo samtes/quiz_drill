@@ -23,8 +23,8 @@
     },
     3: {
       question: "Which classic sneaker was made popular in the 1980's by Hip-Hop group Run-DMC?",
-      choices: {a: "adidas Superstar shell toe", b: "Nike Cortez", c: "Converse All Star", d: "Nike Air Max 1"},
-      answer: "adidas Superstar shell toe",
+      choices: {a: "Adidas Superstar shell toe", b: "Nike Cortez", c: "Converse All Star", d: "Nike Air Max 1"},
+      answer: "Adidas Superstar shell toe",
       image: "images/shell-toe.png",
       desc: "The iconic Superstar sneaker was first introduced in 1969. It's unique design offered all leather uppers and the infamous rubber \"shell toe\" as a protective toe piece. The shoe was initially marketed towards NBA players with Kareem Abdul-Jabaar being the most notable player. By the mid 1970's, over 75% of the NBA were rocking these sneakers on the hardwood. In the mid 1980's, hip-hop group Run-DMC out of Queens, New York made these shoes noticeable across the country. They wore their shell toes with the tongues pushed out and the laces undone. The shell toe sneaker is still an iconic silhouette to this day."
     },

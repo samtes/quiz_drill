@@ -12,7 +12,6 @@ body {
 
 .display {
   width: 50%;
-  border: 1px dashed;
   display: flex;
   margin: 20px auto;
 }
@@ -21,6 +20,7 @@ body {
   padding: 5px 0 15px;
   width: 20%;
   height: 60px;
+  border-radius: 9px;
   border: 1px dashed;
 }
 
@@ -28,11 +28,16 @@ body {
   background-color: white;
   color: green;
 }
-.option {
+.option, .total  {
   width: 40%;
+  border-radius: 9px;
   border: 1px dashed;
   margin: 10px;
   padding: 20px;
+}
+
+.total {
+  width: 50%;
 }
 
 .pass {
